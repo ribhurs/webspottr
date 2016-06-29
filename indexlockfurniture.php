@@ -13,6 +13,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="jumbotron.css" rel="stylesheet">
+    <link href="bootstrap-social.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
     <!--Favicon-->
@@ -64,7 +65,7 @@
 
 </head>
 
-<body>
+<body onload="checkLoginState()">
 
 
     <!-- Google Tag Manager -->
@@ -100,6 +101,7 @@
 
     <nav class="navbar navbar-inverse visible-xs">
         <div class="container-fluid">
+           
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -109,7 +111,8 @@
                 <h2> <span class="fa fa-puzzle-piece" aria-hidden="true"></span> Spottr.</h2>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-
+           
+                
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
@@ -436,7 +439,6 @@
                  <div class="col-md-4"> 
                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
                         Click to see the card
                     </div>
                 </div>
@@ -453,9 +455,9 @@
                  <h1>Spottr</h1>
                 <h4 class="modal-title">Discover your next favorite service</h4>
                  <br>
-                 <br>
-                <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true" onlogin="checkLoginState();">Continue with Facebook</div>
-
+                 <br>              
+                <fb:login-button auto-logout-link="true" scope="public_profile,email" onlogin="checkLoginState();" data-size="xlarge">
+                </fb:login-button>
             </div> 
         </div>
     </div>
@@ -525,27 +527,22 @@
                 function statusChangeCallback(response) {
                     console.log('statusChangeCallback');
                     console.log(response);
-                    // The response object is returned with a status field that lets the
-                    // app know the current login status of the person.
-                    // Full docs on the response object can be found in the documentation
-                    // for FB.getLoginStatus().
                     if (response.status === 'connected') {
-                      testAPI();
+                        console.log("The USER ID: ");
+                        var userid = response.authResponse.userID;
+                        console.log(userid);    
+                      testAPI(userid);
                     } else if (response.status === 'not_authorized') {
-                      // The person is logged into Facebook, but not your app.
+                  
                       document.getElementById('status').innerHTML = 'Please log ' +
                         'into this app.';
                     } else {
-                      // The person is not logged into Facebook, so we're not sure if
-                      // they are logged into this app or not.
                       document.getElementById('status').innerHTML = 'Please log ' +
                         'into Facebook.';
                     }
                   }
 
-                  // This function is called when someone finishes with the Login
-                  // Button.  See the onlogin handler attached to it in the sample
-                  // code below.
+                  
                   function checkLoginState() {
                     FB.getLoginStatus(function(response) {
                       statusChangeCallback(response);
@@ -562,13 +559,12 @@
                     version    : 'v2.5' // use graph api version 2.5
                   });
 
+                  
                   FB.getLoginStatus(function(response) {
                     statusChangeCallback(response);
                   });
 
                   };
-
-
 
                   // Load the SDK asynchronously
                   (function(d, s, id) {
@@ -581,16 +577,17 @@
 
                   // Here we run a very simple test of the Graph API after login is
                   // successful.  See statusChangeCallback() for when this call is made.
-                  function testAPI() {
-                    console.log('Welcome!  Fetching your information.... ');
+                  
+                  function testAPI(userid) {
+                    console.log('Welcome!  Fetching your information....'+userid);
                     FB.api('/me', function(response) {
-                      console.log('Successful login for: ' + response.name);
-                    //  window.location = "http://localhost/uploader/index.php";    
-                      document.getElementById('status').innerHTML =
-                       'Thanks for logging in, ' + response.name + '!';
+                    //  console.log('Successful login for: ' + response.name);
+                      window.location = "http://localhost/spottrsource/webspottr/rental.php?fbid="+userid+"#furniture";    
+                    //  document.getElementById('status').innerHTML =
+                    //   'Thanks for logging in, ' + response.name + '!';
                     });
                   }
-    
+        
             </script>
 
             <!-- Bootstrap core JavaScript

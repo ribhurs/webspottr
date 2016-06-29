@@ -44,6 +44,27 @@
         </style>';
         
    }
+
+
+/* CONNECT TO DB 
+---------------------------------------------------- */
+$servername = "localhost";
+$username = "root";  //Databaseman
+$password = "root"; //T&03,e)~x~2A
+$dbname = "CardData"; //kristy
+$conn = new mysqli($servername, $username, $password, $dbname);
+$result = $conn->connect_error; 
+      
+
+/* PARSE THE QUERY STRING, STORE FBID TO DB 
+---------------------------------------------------- */   
+$querystring =  $_SERVER["QUERY_STRING"];
+parse_str($querystring);
+$sql = "INSERT INTO facebookid (userid) VALUES (".$fbid.")";
+$result = $conn->query($sql);
+
+
+$conn->close();
 ?>
 
 <!DOCTYPE html>

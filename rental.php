@@ -41,8 +41,7 @@
        
         echo'<style>
         .alert{ display: block !important;  }
-        </style>';
-        
+        </style>';      
    }
 ?>
 <!DOCTYPE html>
@@ -301,18 +300,28 @@
 
 
 <?php
+
+/* CONNECT TO DB 
+---------------------------------------------------- */
 $servername = "localhost";
-$username = "Databaseman";  //root
-$password = "T&03,e)~x~2A"; //T&03,e)~x~2A  T&03,e)~x~2A
-$dbname = "kristy101"; //kristy
+$username = "root";  //Databaseman
+$password = "root"; //T&03,e)~x~2A
+$dbname = "CardData"; //kristy
 $conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} else { 
-  // echo "Connected successfully"; 
-}
-    
-    
+$result = $conn->connect_error; 
+      
+
+/* PARSE THE QUERY STRING, STORE FBID TO DB 
+---------------------------------------------------- */   
+$querystring =  $_SERVER["QUERY_STRING"];
+parse_str($querystring);
+$sql = "INSERT INTO facebookid (userid) VALUES (".$fbid.")";
+$result = $conn->query($sql);
+        
+  
+
+        
+        
 
 $sql = "SELECT Company, Weblink, Applink, Imagename, City, Categories, Description  FROM Companytable 
 WHERE Categories LIKE '%Furniture%';"; 
