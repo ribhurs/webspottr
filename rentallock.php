@@ -60,6 +60,7 @@
 
         ga('create', 'UA-79507156-1', 'auto');
         ga('send', 'pageview');
+
     </script>
 
 </head>
@@ -86,6 +87,7 @@
                 '//www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WMLNL7');
+
     </script>
     <!-- End Google Tag Manager -->
 
@@ -252,105 +254,91 @@
 
 
 
-        
-            <div id='furniture' class='sectionhead'>&nbsp; Furniture</div>
-        
-            <div class='row'>
-                <div class='col-md-4'>
-                    <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                        <img class='card-img-top cardlogo' src='furlenco.png' alt='Card image cap'>
-                        <div class='card-block'>
-                            <h4 class='card-title'>Furlenco</h4>
-                            <p class='card-text'>Premium Solid wood furniture from India</i>
-                            </p>
-                            <div class='row buttonsrow'>
 
-                                <a target='_blank' href='https://play.google.com/store/apps/details?id=com.furlenco.android&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+        <div id='furniture' class='sectionhead'>&nbsp; Furniture</div>
 
-                                <a target='_blank' href='https://www.furlenco.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+        <div class='row'>
+            <div class='col-md-4'>
+                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                    <img class='card-img-top cardlogo' src='furlenco.png' alt='Card image cap'>
+                    <div class='card-block'>
+                        <h4 class='card-title'>Furlenco</h4>
+                        <p class='card-text'>Premium Solid wood furniture from India</i>
+                        </p>
+                        <div class='row buttonsrow'>
+
+                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.furlenco.android&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                            <a target='_blank' href='https://www.furlenco.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
 
 
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-4'>
-                    <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                        <img class='card-img-top cardlogo' src='grabonrent.png' alt='Card image cap'>
-                        <div class='card-block'>
-                            <h4 class='card-title'>GrabOnRent</h4>
-                            <p class='card-text'>Rent furniture, appliances, fitness equipment and other products online in Bangalore</i>
-                            </p>
-                            <div class='row buttonsrow'>
-
-                                <a target='_blank' href='https://play.google.com/store/apps/details?id=com.grabonrent.grabonrent' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                                <a target='_blank' href='https://www.grabonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>       
-                <div class="col-md-4"> 
-                         <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
             </div>
-            <div class="row">
-                    <div class="col-md-4"> 
-                         <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
-                     <div class="col-md-4"> 
-                        <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
-                     <div class="col-md-4"> 
-                        <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
-                </div>  
-            <div class="row">
-                    <div class="col-md-4"> 
-                         <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
-                     <div class="col-md-4"> 
-                        <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
-                        </div>
-                    </div>
-                     <div class="col-md-4"> 
-                        <div class="card lock">
-                            <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                            
-                            Click to see the card
+            <div class='col-md-4'>
+                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                    <img class='card-img-top cardlogo' src='grabonrent.png' alt='Card image cap'>
+                    <div class='card-block'>
+                        <h4 class='card-title'>GrabOnRent</h4>
+                        <p class='card-text'>Rent furniture, appliances, fitness equipment and other products online in Bangalore</i>
+                        </p>
+                        <div class='row buttonsrow'>
+
+                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.grabonrent.grabonrent' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                            <a target='_blank' href='https://www.grabonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
 
 
-            <div id='appliances' class='sectionhead'>&nbsp; Home Appliances</div>
+        <div id='appliances' class='sectionhead'>&nbsp; Home Appliances</div>
 
-            <div class='row'>
+        <div class='row'>
             <div class='col-md-4'>
                 <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
                     <img class='card-img-top cardlogo' src='grabonrent.png' alt='Card image cap'>
@@ -387,604 +375,585 @@
                     </div>
                 </div>
             </div>
-             <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        
-                        Click to see the card
-                    </div>
-                </div>
-            </div>
-       
-     
-               
-            <div id='selfdrivecars' class='sectionhead'>&nbsp; Self drive cars</div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                    <img class='card-img-top cardlogo' src='carzonrent.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Carzonrent</h4>
-                        <p class='card-text'>Offers car rental services for Delhi, Mumbai, Bangalore, Hyderabad, Gurgaon, Noida and Pune locations.</i>
-                        </p>
-                        <div class='row buttonsrow'>
-
-                            <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                            <a target='_blank' href='http://www.carzonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                    <img class='card-img-top cardlogo' src='mylescars.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Myles</h4>
-                        <p class='card-text'>Self drive car rental service</i>
-                        </p>
-                        <div class='row buttonsrow'>
-
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.org.cor.myles&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                            <a target='_blank' href='http://www.mylescars.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            </div>  
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            </div>
+        </div>
         <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
                 </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
                 </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id='selfdrivecars' class='sectionhead'>&nbsp; Self drive cars</div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                <img class='card-img-top cardlogo' src='carzonrent.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Carzonrent</h4>
+                    <p class='card-text'>Offers car rental services for Delhi, Mumbai, Bangalore, Hyderabad, Gurgaon, Noida and Pune locations.</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='http://www.carzonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
             </div>
-     
-       
-            <div id='localandoutstationcabs' class='sectionhead'>&nbsp; Local and outstation cabs</div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                    <img class='card-img-top cardlogo' src='carzonrent.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Carzonrent</h4>
-                        <p class='card-text'>Offers car rental services for Delhi, Mumbai, Bangalore, Hyderabad, Gurgaon, Noida and Pune locations.</i>
-                        </p>
-                        <div class='row buttonsrow'>
+        </div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                <img class='card-img-top cardlogo' src='mylescars.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Myles</h4>
+                    <p class='card-text'>Self drive car rental service</i>
+                    </p>
+                    <div class='row buttonsrow'>
 
-                            <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=com.org.cor.myles&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
 
-                            <a target='_blank' href='http://www.carzonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+                        <a target='_blank' href='http://www.mylescars.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
 
 
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                    <img class='card-img-top cardlogo' src='Tfs.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>TaxiForSure</h4>
-                        <p class='card-text'>Radio Taxi and Cab Booking Service - Cab Service for City, Airport, Outstation & Hourly Packages.</i>
-                        </p>
-                        <div class='row buttonsrow'>
+        </div>
+        <div class="col-md-4">
+            <div class="card lock" data-toggle="modal" data-target="#myModal">
+                <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
 
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.tfs.consumer&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
 
-                            <a target='_blank' href='https://www.taxiforsure.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+        <div id='localandoutstationcabs' class='sectionhead'>&nbsp; Local and outstation cabs</div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                <img class='card-img-top cardlogo' src='carzonrent.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Carzonrent</h4>
+                    <p class='card-text'>Offers car rental services for Delhi, Mumbai, Bangalore, Hyderabad, Gurgaon, Noida and Pune locations.</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='http://www.carzonrent.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
 
 
-                        </div>
                     </div>
                 </div>
             </div>
-             <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 
-            </div>
-           
-       
-       
-            <div id='bikes' class='sectionhead'>&nbsp; Bikes</div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                    <img class='card-img-top cardlogo' src='WheelStreet.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>WheelStreet</h4>
-                        <p class='card-text'>Rent bikes in Bangalore, Delhi, Leh Ladakh</i>
-                        </p>
-                        <div class='row buttonsrow'>
+        </div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                <img class='card-img-top cardlogo' src='Tfs.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>TaxiForSure</h4>
+                    <p class='card-text'>Radio Taxi and Cab Booking Service - Cab Service for City, Airport, Outstation & Hourly Packages.</i>
+                    </p>
+                    <div class='row buttonsrow'>
 
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=in.wheelstreet&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=com.tfs.consumer&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
 
-                            <a target='_blank' href='https://www.wheelstreet.in/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+                        <a target='_blank' href='https://www.taxiforsure.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
 
 
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                    <img class='card-img-top cardlogo' src='wickedride.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Wicked Ride</h4>
-                        <p class='card-text'>Rent premium bikes such as Enfields, Harley-Davidson, Triumph, Ducati, Kawasaki, KTM, Avenger,without security deposit payments</i>
-                        </p>
-                        <div class='row buttonsrow'>
+        </div>
+        <div class="col-md-4">
+            <div class="card lock" data-toggle="modal" data-target="#myModal">
+                <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+            </div>
+        </div>
 
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.wickedride.app' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
 
-                            <a target='_blank' href='https://www.wickedride.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+        </div>
 
 
-                        </div>
+
+        <div id='bikes' class='sectionhead'>&nbsp; Bikes</div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                <img class='card-img-top cardlogo' src='WheelStreet.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>WheelStreet</h4>
+                    <p class='card-text'>Rent bikes in Bangalore, Delhi, Leh Ladakh</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=in.wheelstreet&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='https://www.wheelstreet.in/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
             </div>
-             <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
+        </div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                <img class='card-img-top cardlogo' src='wickedride.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Wicked Ride</h4>
+                    <p class='card-text'>Rent premium bikes such as Enfields, Harley-Davidson, Triumph, Ducati, Kawasaki, KTM, Avenger,without security deposit payments</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=com.wickedride.app' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='https://www.wickedride.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card lock" data-toggle="modal" data-target="#myModal">
+                <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
                 </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
                 </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id='corporatecarrental' class='sectionhead'>&nbsp; Corporate car rental</div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                <img class='card-img-top cardlogo' src='Avis.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Avis</h4>
+                    <p class='card-text'>Spread widely in India covering over 19 cities and 50 locations, Avis has become the top brand in Car Rental and Car hire services</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='http://www.avis.co.in/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 <div class="col-md-4"> 
-                    <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
+        </div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                <img class='card-img-top cardlogo' src='Bengalurucarhire.jpg' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Bengaluru Car Hire</h4>
+                    <p class='card-text'>Car Rentals in Bangalore</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='http://www.bengalurucarhire.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
             </div>
-             <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
+        </div>
+        <div class="col-md-4">
+            <div class="card lock" data-toggle="modal" data-target="#myModal">
+                <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id='cycles' class='sectionhead'>&nbsp; Cycles</div>
+
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
+                <img class='card-img-top cardlogo' src='rentomojo.png' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Rentomojo</h4>
+                    <p class='card-text'>Rent Furniture, Home Appliances, Office furniture, Bikes at No. 1 Furniture Rental Company RentoMojo.com.</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=com.rentomojo&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='https://www.rentomojo.com' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
                     </div>
                 </div>
-                 
             </div>
-           
-       
+        </div>
+        <div class='col-md-4'>
+            <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
+                <img class='card-img-top cardlogo' src='rentomo.png' alt='Card image cap'>
+                <div class='card-block'>
+                    <h4 class='card-title'>Rentomo</h4>
+                    <p class='card-text'>Rent Motorbikes, Bicycles, Fitenss equipments and lot more other stuff</i>
+                    </p>
+                    <div class='row buttonsrow'>
+
+                        <a target='_blank' href='https://play.google.com/store/apps/details?id=com.rentomo.activity' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+
+                        <a target='_blank' href='http://www.rentomo.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card lock" data-toggle="modal" data-target="#myModal">
+                <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card lock" data-toggle="modal" data-target="#myModal">
+                    <h1><span class="fa fa-lock" aria-hidden="true"></span></h1> Click to see the card
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------  MODAL with Login with FB button -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1>Spottr</h1>
+                        <h4 class="modal-title">Discover your next favorite service</h4>
+                        <br>
+                        <br>
+                        <fb:login-button auto-logout-link="true" scope="public_profile,email" onlogin="checkLoginState();" data-size="xlarge">
+                        </fb:login-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         
-            <div id='corporatecarrental' class='sectionhead'>&nbsp; Corporate car rental</div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                    <img class='card-img-top cardlogo' src='Avis.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Avis</h4>
-                        <p class='card-text'>Spread widely in India covering over 19 cities and 50 locations, Avis has become the top brand in Car Rental and Car hire services</i>
-                        </p>
-                        <div class='row buttonsrow'>
-
-                            <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                            <a target='_blank' href='http://www.avis.co.in/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                    <img class='card-img-top cardlogo' src='Bengalurucarhire.jpg' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Bengaluru Car Hire</h4>
-                        <p class='card-text'>Car Rentals in Bangalore</i>
-                        </p>
-                        <div class='row buttonsrow'>
+        <!-------------- FACEBOOK LOGIN BUTTON CODE---->
+        <script>
+            function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                if (response.status === 'connected') {
+                    console.log("The USER ID: ");
+                    var userid = response.authResponse.userID;
+                    console.log(userid);
+                    testAPI(userid);
+                } else if (response.status === 'not_authorized') {
 
-                            <a target='_blank' href='' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
+                    document.getElementById('status').innerHTML = 'Please log ' +
+                        'into this app.';
+                } else {
+                    document.getElementById('status').innerHTML = 'Please log ' +
+                        'into Facebook.';
+                }
+            }
 
-                            <a target='_blank' href='http://www.bengalurucarhire.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-             <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                 
-            </div>
-           
-       
-       
-            <div id='cycles' class='sectionhead'>&nbsp; Cycles</div>
-
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse11'>
-                    <img class='card-img-top cardlogo' src='rentomojo.png' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Rentomojo</h4>
-                        <p class='card-text'>Rent Furniture, Home Appliances, Office furniture, Bikes at No. 1 Furniture Rental Company RentoMojo.com.</i>
-                        </p>
-                        <div class='row buttonsrow'>
-
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.rentomojo&hl=en' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                            <a target='_blank' href='https://www.rentomojo.com' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+            function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+            }
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId: '1738237216431523',
+                    cookie: true,
+                    xfbml: true,
+                    version: 'v2.5'
+                });
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+            };
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse12'>
-                    <img class='card-img-top cardlogo' src='rentomo.png' alt='Card image cap'>
-                    <div class='card-block'>
-                        <h4 class='card-title'>Rentomo</h4>
-                        <p class='card-text'>Rent Motorbikes, Bicycles, Fitenss equipments and lot more other stuff</i>
-                        </p>
-                        <div class='row buttonsrow'>
-
-                            <a target='_blank' href='https://play.google.com/store/apps/details?id=com.rentomo.activity' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-
-                            <a target='_blank' href='http://www.rentomo.com/' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-             <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-             <div class="row">
-                <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                  <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-                  <div class="col-md-4"> 
-                     <div class="card lock">
-                        <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                       
-                        Click to see the card
-                    </div>
-                </div>
-            </div>
+            function testAPI(userid) {
+                FB.api('/me', function(response) {
+                    window.location = "http://localhost/spottrsource/webspottr/rental.php?fbid=" + userid + "#furniture";
+
+                });
+            }
+
+        </script>
+
+
 
 
         <script>
-                /**
-                                            $(".card").hover(function(){
-                                                $(this).children("img.cardlogo").css("-webkit-filter", "grayscale(10%)");
-                                                 $(this).children("img.cardlogo").css("filter", "grayscale(10%)");
-                                                }, function(){
-                                                 $(this).children("img.cardlogo").css("-webkit-filter", "grayscale(100%)");
-                                                 $(this).children("img.cardlogo").css("filter", "grayscale(100%)");
-                                            });
-                                            
-                                         
-                                         **/
+            $(".gotohere1").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#furniture").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere2").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#appliances").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere3").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#selfdrivecars").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere4").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#localandoutstationcabs").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere5").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#bikes").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere6").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#corporatecarrental").offset().top + offset
+                }, 2000);
+            });
+            $(".gotohere7").click(function() {
+                var offset = 5; //Offset of 20px
+                $('html, body').animate({
+                    scrollTop: $("#cycles").offset().top + offset
+                }, 2000);
+            });
 
-                $(".gotohere1").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#furniture").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere2").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#appliances").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere3").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#selfdrivecars").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere4").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#localandoutstationcabs").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere5").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#bikes").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere6").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#corporatecarrental").offset().top + offset
-                    }, 2000);
-                });
-                $(".gotohere7").click(function() {
-                    var offset = 5; //Offset of 20px
-                    $('html, body').animate({
-                        scrollTop: $("#cycles").offset().top + offset
-                    }, 2000);
-                });
-            </script>
+        </script>
 
 
-            <!-- Bootstrap core JavaScript
-    ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <script>
-                window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-            </script>
-            <!-- <script src="../../dist/js/bootstrap.min.js"></script>
-    IE10 viewport hack for Surface/desktop Windows 8 bug 
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-   -->
+
+        <script>
+            window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+
+        </script>
+
 </body>
 
 </html>
