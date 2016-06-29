@@ -396,78 +396,7 @@ echo "</div>";
     
 
 
-
-$sql = "SELECT Company, Weblink, Applink, Imagename, City, Categories, Description  FROM Companytable 
-WHERE Categories LIKE '%Home Appliances%';";
  
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    // output data of each row
-      $x = 0;
-      $colcount = 2;
-      $firstrun = true;
-    
-    echo "<div class='row'>";
-    while($row = $result->fetch_assoc()) {
-        
-        if($firstrun)
-        {
-            echo "<div id='appliances' class='sectionhead'>&nbspHome Appliances</div>";
-            $firstrun = false;
-        }
-        
-        $x = $x + 1;   
-        if($colcount == 4)
-          { 
-            echo "<div class='row'>";
-          }
-        
-       
-         echo "<div class='col-md-4'>
-                <div class='card' data-toggle='collapse' data-target='#cardcollapse1".$x."'>
-                        <img class='card-img-top cardlogo' src='".$row["Imagename"]."' alt='Card image cap'>
-                        <div class='card-block'>
-                            <h4 class='card-title'>".$row["Company"]."</h4>
-                            <p class='card-text'>".$row["Description"]."</i>
-                            </p>";
-                   
-        echo       "<div class='row buttonsrow'>
-                            
-                            <a target='_blank' href='".$row["Applink"]."' class='btn btn-success visitappbutton'><span class='fa fa-android' aria-hidden='true'></span></a>
-                            
-                            <a target='_blank' href='".$row["Weblink"]."' class='btn btn-success visitsitebutton'><span class='fa fa-external-link' aria-hidden='true'></span>&nbsp; visit site</a>
-                            
-                            
-                            </div>
-                            </div>
-                            </div>
-                        </div>";
-           
-           if($colcount == 4)
-            {echo "</div>";
-            $colcount = 1; }
-        $colcount = $colcount + 1;  
-     }         
-} 
-    else {
-    echo "0 results".$conn->error;
-}
-    
-if($colcount!=2) 
-{ echo "<div class='col-md-4'>
-    <div class='card message' data-target='#cardcollapse2016' data-toggle='collapse'>
-        <form action='/rental.php' method='post' role='form'>
-            <div class='card-block message'>
-                <h4 class='card-title'>Subscribe</h4>
-                <div class='card-text message'><br>Other services that you want to see?<br><input type='text' class='form-control' placeholder='eg. beauty services' name='text1' id='text1'>Any service provider whom we missed?<br><input type='text' class='form-control' placeholder='eg. rentallistings.com' name='text2' id='text2'></span></div>
-                <div class='row buttonsrow subscribe'>
-                    <div class='input-group'><input type='email' class='form-control' placeholder='you@awesome.com' name='email' id='email'><span class='input-group-btn'><button class='btn btn-secondary gobutton' type='submit'>Go!</button></span></div>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>";  }
-echo "</div>";  
  
 
 $sql = "SELECT Company, Weblink, Applink, Imagename, City, Categories, Description  FROM Companytable 
