@@ -1,0 +1,5 @@
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^spottr.in [NC]
+RewriteRule ^(.*)$ http://www.spottr.in/$1 [L,R=301]
