@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<head>
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1' crossorigin='anonymous'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='bootstrap.min.css' rel='stylesheet'>
+    <link href='jumbotron.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class='navbar navbar-default'>
+        <div class='container-fluid'>
+            <div class='navbar'><i class='fa fa-puzzle-piece' aria-hidden='true'></i> Spottr.</div>
+        </div>
+    </nav>
+    <div class='jumbotron'>
+        <div class='container'>
+            <h1 class='display-3'>Hello, House hunters!</h1>
+            <p><span class='jumbotrontext'>Finding the ideal home for rent is difficult. <br>
+    Rummaging through numerous listing sites, calling up brokers and then going back to those lists hoping to find a better deal. We have been there, done that. Here's a list to ease your first step of finding the resources to begin your house hunt. <br>
+    Happy hunting!</span>&nbsp;<i class='fa fa-thumbs-o-up' aria-hidden='true'></i></p>
+        </div>
+    </div>
+        
+<div class='container'>
