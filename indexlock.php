@@ -360,8 +360,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -369,22 +369,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -392,8 +392,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
                  <div class="col-md-4"> 
                    <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -452,8 +452,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
             <div class="col-md-4"> 
                    <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -461,22 +461,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -484,22 +484,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -534,8 +534,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
             <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -590,8 +590,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
             <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -599,22 +599,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -622,22 +622,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -645,22 +645,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -697,8 +697,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
            <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -734,8 +734,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
            <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -792,8 +792,8 @@ We have all been there - rummaging through numerous listing sites, checking up c
             <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -801,22 +801,22 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 <div class="col-md-4"> 
                      <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
                     <div class="card lock">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
