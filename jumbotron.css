@@ -1,0 +1,443 @@
+
+
+.row.content {
+    height: 800px;
+}
+
+.sidenav {
+     /*background-color: #4E2C73;*/
+   /*background-image: linear-gradient(to top, #1D0438 25%,white 150%), url(pic4.jpg);
+    background-blend-mode: darken;*/
+    background-image: url(sidebarback.jpg);
+    
+    height: 100%;
+    padding: 20px 20px 100px 30px;
+    position: fixed;
+    color: white;
+    overflow: auto;
+}
+
+.mainbody{
+    background-color: #ecf0f1;
+    float: right;
+    overflow: auto;
+    padding: 10px 40px 10px 15px;
+}
+
+.well{
+    background-color: #f1c40f;
+    border: none;
+    padding: 25px;
+}
+.row{
+     background-color:#ecf0f1;
+    border-radius: 4px;
+    margin: 0;
+}
+
+body {
+
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+   /* font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;*/
+        }
+
+.navbar-default{
+    margin: 0;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 0;
+}
+.jumbotron{
+    background-color: #f1c40f;
+   color: white;
+    border-radius: 0;
+    margin: 0 0 20px 0;
+     overflow: auto;
+}
+.jumbotrontext{
+    font-size: 85%;
+   font-weight: 600;
+
+
+}
+.card{
+    border-radius: 4px;
+    padding: 0 10px;
+    margin: 0;
+    border: none;
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 1px 2px #bdc3c7;
+   
+}
+
+.card-text{
+    height:80px;
+    overflow: auto;
+    margin: 0;
+     /*font-family: 'PT Sans', sans-serif;*/
+}
+.card{
+        font-size: 85%;
+    }
+.card-title{
+        font-size: 120%;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+.ratinglabel{
+     z-index: 1;
+    top: 0px;
+    right: 0px;
+    background-color: #2ecc71;
+    color: white;
+    border-top-right-radius: 4px;
+    padding: 3px 15px;
+    position: absolute;
+   
+}
+.ratinglabel.five{
+    background-color: #27ae60;
+}
+.ratinglabel.four{
+    background-color: #2ecc71;
+}
+.ratinglabel.three{
+    background-color: #f1c40f;
+}
+.ratinglabel.two{
+    background-color: #f39c12;
+}
+.ratinglabel.one{
+    background-color: #d35400;
+}
+.footer{
+    margin: -20px 0 -35px 0;
+    padding: 20px   60px;
+    background-color: #f1c40f;
+    color: aliceblue;
+}
+.cardlogo{
+    display: block; 
+      z-index: -1 ;
+/*    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+/*    filter: grayscale(100%); */
+    width: 100%;
+   margin: auto;
+    border-radius: 10px;
+    padding: 5px 0 0 0;
+}
+
+.card-block{
+    background-color: white;
+    padding: 5px 6px 5px 6px;
+    border-radius: 10px;
+    
+}
+.col-md-4{
+    padding: 8px 8px;
+}
+.visitsitebutton{
+    color: #2ecc71;
+    font-weight: normal;
+    font-size: 14px;
+
+    background-color: white;
+    border-style: solid;
+    border-color: #2ecc71;
+    border-width: 1px;
+    float: right;
+}
+.visitsitebutton:hover{
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+.visitappbutton{
+    color: #bdc3c7;
+    background-color: white;
+    padding: 4px 10px;
+    border-style: solid;
+   border-radius: 100%;
+    border-width: 1px;
+    border-color: #bdc3c7;
+}
+.visitappbutton:hover{
+    background-color: #27ae60;
+    border:none;
+}
+.downbutton{
+    color: #2ecc71;
+    background-color: white;
+    padding: 4px 11px;
+    margin-right: 5px;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 1px;
+    border-color: #2ecc71;
+}
+.downbutton:hover{
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+.buttonsrow{
+    border-top-style: dotted;
+    border-top-color:#bdc3c7;
+    border-top-width: 1px;
+    padding: 5px 0;
+    background-color: white;
+}
+.buttonsrow.subscribe{
+    border-top-color: white;
+    background-color: #f1c40f;
+}
+
+.extrainfo{
+    margin: 6px 0 ;
+    padding: 6px 0 ;
+    /*font-family: 'PT Sans', sans-serif;*/ 
+    color: #7f8c8d;
+    
+}
+.appicon{
+    color:#95a5a6;
+    margin: 0  5px;
+    
+}
+.bulletpoint{
+    margin: 0 10px;
+    color: #27ae60;
+}
+.sectionhead{
+    font-size: 36px;
+    font-weight: 200;
+    margin: 30px 0 20px 0;
+}
+.navbutton{
+    padding: 0 20px;
+}
+
+.red{
+    color: #e67e22;
+}
+.message{
+    background-color: #f1c40f;
+    color: black;
+}
+.gobutton{
+    background-color: white;
+    border-color: #2ecc71;
+    padding: 4px 15px;
+    color: #2ecc71;
+    font-weight: 600;
+}
+.gobutton:hover{
+    background-color: #27ae60;
+   border-color: #27ae60;
+    color: white;
+    
+}
+.dropbtn {
+    background-color: white;
+    width: 140px;
+    color: black;
+    padding: 2px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+border-radius: 4px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+border-radius: 4px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.card-text.message{
+    height: 161px;
+    margin-bottom: 0;
+    overflow: auto;
+    margin: 0;
+}
+.form-control{
+    border: none;
+    font-size:12px;
+   
+}
+.col-sm-4{
+    padding: 5px;
+}
+.col-sm-8{
+    padding: 5px;
+}
+
+a{
+    color: inherit;
+    font-size: 85%;
+}
+.nav>li>a:hover{
+    color: inherit;
+    background-color: #2c3e50;
+    cursor: pointer;
+}
+
+.alert{
+    padding: 10px 40px 10px 40px;
+    margin: 0;
+    display: none;
+    position: fixed;
+    z-index: 3;
+   right: 0;
+    
+}
+.navbar{
+    padding: 0 5px;
+    font-size: 100%;
+    color: white;
+    font-weight: 400;
+}
+.panel{
+    border: none;
+    background-color: #3B1320;
+    color: white;
+}
+.panel-default> .panel-heading{
+    background-color:  #230819;
+    color: white;
+}
+.panel-default> .panel-heading:hover{
+    cursor: pointer;
+}
+.panel-body{
+    border: none;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+
+.info{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: block;
+    background-color: #200526;
+}
+.navbar-nav{
+    padding-left: 15px;
+}
+
+
+@media (min-width: 760px) and (max-width: 993px) {
+  .visitappbutton { display: none; }
+}
+
+@media (max-width: 760px) {
+    .card-text{
+        height: auto;
+        
+    }
+    .mainbody{
+        margin: 50px 0 0 0;
+        padding: 0;
+        
+    }
+    .well{
+        border-radius: 0;
+    }
+    
+    .navbar{
+        margin: 0;
+        background-color: #f1c40f;
+       border: none;
+        border-radius: 0; 
+        color: black;
+    }
+    .navbar-inverse .navbar-nav>li>a{
+        color: black;
+    }
+    h2{
+        margin: 5px 2px;
+    }
+    .sectionhead{
+        font-size: 24px;
+        font-weight: 700;
+        padding: 25px 3px 0 15px;
+    }
+  
+    .card{
+        font-size: 85%;
+        font-weight: 400;
+    }
+
+    .navbar{
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+    }
+    .input-group{
+         z-index: 1;
+    }
+    .panel{
+        background-color: #f1c40f;
+        border: none;
+    }
+    .navbar-collapse{
+        padding-top: 5px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+}
