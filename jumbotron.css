@@ -95,7 +95,7 @@ body {
     height: 240px;
     color: white;
     text-align: center;
-    padding: 20%;
+    padding: 25%;
 }
 .card.lock:hover{
     cursor: pointer;
