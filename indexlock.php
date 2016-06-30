@@ -358,42 +358,42 @@ We have all been there - rummaging through numerous listing sites, checking up c
                     </div>
                 </div>
                 <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
             <div class="row" >
                  <div class="col-md-4"> 
-                   <div class="card lock">
+                   <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -450,56 +450,56 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 </div>
             </div>
             <div class="col-md-4"> 
-                   <div class="card lock">
+                   <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
         <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -532,10 +532,10 @@ We have all been there - rummaging through numerous listing sites, checking up c
             </div>
 
             <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -588,79 +588,79 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 </div>
             </div>
             <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
          <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
@@ -695,10 +695,10 @@ We have all been there - rummaging through numerous listing sites, checking up c
             </div>
 
            <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -732,10 +732,10 @@ We have all been there - rummaging through numerous listing sites, checking up c
             </div>
 
            <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
@@ -790,42 +790,115 @@ We have all been there - rummaging through numerous listing sites, checking up c
                 </div>
             </div>
             <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
         </div>
          <div class="row">
                 <div class="col-md-4"> 
-                     <div class="card lock">
+                     <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
                  <div class="col-md-4"> 
-                    <div class="card lock">
+                    <div class="card lock" data-toggle="modal" data-target="#myModal">
                         <h1><span class="fa fa-lock" aria-hidden="true"></span></h1>
-                        <h4 class="loginbutton">LOG IN </h4>
-                        to see this card.
+                        
+                        Click to see the card.
                     </div>
                 </div>
             </div>
            
 
+        
+        <!-- -------------------------------------  MODAL with Login with FB button -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1>Spottr</h1>
+                        <h4 class="modal-title">Discover your next favorite service</h4>
+                        <br>
+                        <br>
+                        <fb:login-button auto-logout-link="true" scope="public_profile,email" onlogin="checkLoginState();" data-size="xlarge">
+                        </fb:login-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    
+    
+
+        <!-------------- FACEBOOK LOGIN BUTTON CODE---->
+        <script>
+            function statusChangeCallback(response) {
+                console.log('statusChangeCallback');
+                console.log(response);
+                if (response.status === 'connected') {
+                    console.log("The USER ID: ");
+                    var userid = response.authResponse.userID;
+                    console.log(userid);
+                    testAPI(userid);
+                } else if (response.status === 'not_authorized') {
+
+                    document.getElementById('status').innerHTML = 'Please log ' +
+                        'into this app.';
+                } else {
+                    document.getElementById('status').innerHTML = 'Please log ' +
+                        'into Facebook.';
+                }
+            }
+
+            function checkLoginState() {
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+            }
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId: '1738237216431523',
+                    cookie: true,
+                    xfbml: true,
+                    version: 'v2.5'
+                });
+                FB.getLoginStatus(function(response) {
+                    statusChangeCallback(response);
+                });
+            };
 
 
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
 
-    </div>
+
+            function testAPI(userid) {
+                FB.api('/me', function(response) {
+                    window.location = "http://localhost/spottrsource/webspottr/index.php?fbid=" + userid + "#furniture";
+
+                });
+            }
+
+        </script>
 
      <script>   
            /*

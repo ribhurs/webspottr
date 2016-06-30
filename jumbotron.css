@@ -95,7 +95,7 @@ body {
     height: 240px;
     color: white;
     text-align: center;
-    padding: 20%;
+    padding: 25%;
 }
 .card.lock:hover{
     cursor: pointer;
@@ -406,6 +406,11 @@ a{
     padding-left: 15px;
 }
 
+
+
+.fb-login-button {
+  padding: 10px;
+}
 
 @media (min-width: 760px) and (max-width: 993px) {
   .visitappbutton { display: none; }
