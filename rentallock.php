@@ -115,13 +115,13 @@
                         <div id="collapse1" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="http://www.spottr.in/index.php#companyManagedHouses" data-toggle="collapse" data-target="#myNavbar">Company Managed Houses</a></li>
-                                    <li><a href="http://www.spottr.in/index.php#companyManagedPGs" data-toggle="collapse" data-target="#myNavbar">Company Managed PGs</a></li>
-                                    <li><a href="http://www.spottr.in/index.php#chatBased" data-toggle="collapse" data-target="#myNavbar">Chat Based Search</a></li>
-                                    <li><a href="http://www.spottr.in/index.php#listings" data-toggle="collapse" data-target="#myNavbar">Listings</a></li>
-                                    <li><a href="http://www.spottr.in/index.php#listingAggregators" data-toggle="collapse" data-target="#myNavbar">Listing Aggregators</a></li>
-                                    <li><a href="http://www.spottr.in/index.php#brokers" data-toggle="collapse" data-target="#myNavbar">Real Estate Agents</a> </li>
-                                    <li><a href="http://www.spottr.in/index.php#classifieds" data-toggle="collapse" data-target="#myNavbar">General Classifieds</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#companyManagedHouses" data-toggle="collapse" data-target="#myNavbar">Company Managed Houses</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#companyManagedPGs" data-toggle="collapse" data-target="#myNavbar">Company Managed PGs</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#chatBased" data-toggle="collapse" data-target="#myNavbar">Chat Based Search</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#listings" data-toggle="collapse" data-target="#myNavbar">Listings</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#listingAggregators" data-toggle="collapse" data-target="#myNavbar">Listing Aggregators</a></li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#brokers" data-toggle="collapse" data-target="#myNavbar">Real Estate Agents</a> </li>
+                                    <li><a href="http://www.spottr.in/indexlock.php#classifieds" data-toggle="collapse" data-target="#myNavbar">General Classifieds</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -184,13 +184,13 @@
                 <div id="collapsea1" class="panel-collapse collapse in">
                     <div class="panel-body">
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="http://www.spottr.in/index.php#companyManagedHouses">Company Managed Houses</a></li>
-                            <li><a href="http://www.spottr.in/index.php#companyManagedPGs">Company Managed PGs</a></li>
-                            <li><a href="http://www.spottr.in/index.php#chatBased">Chat Based Search</a></li>
-                            <li><a href="http://www.spottr.in/index.php#listings">Listings</a></li>
-                            <li><a href="http://www.spottr.in/index.php#listingAggregators">Listing Aggregators</a></li>
-                            <li><a href="http://www.spottr.in/index.php#brokers">Real Estate Agents </a></li>
-                            <li><a href="http://www.spottr.in/index.php#classifieds">General Classifieds</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#companyManagedHouses">Company Managed Houses</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#companyManagedPGs">Company Managed PGs</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#chatBased">Chat Based Search</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#listings">Listings</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#listingAggregators">Listing Aggregators</a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#brokers">Real Estate Agents </a></li>
+                            <li><a href="http://www.spottr.in/indexlock.php#classifieds">General Classifieds</a></li>
                         </ul>
                     </div>
                 </div>

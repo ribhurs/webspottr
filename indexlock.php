@@ -182,8 +182,8 @@
                             <div id="collapse2" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="http://www.spottr.in/rental.php#furniture" data-toggle="collapse" data-target="#myNavbar">Furniture</a></li>
-                                        <li><a href="http://www.spottr.in/rental.php#appliances" data-toggle="collapse" data-target="#myNavbar">Appliances</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#furniture" data-toggle="collapse" data-target="#myNavbar">Furniture</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#appliances" data-toggle="collapse" data-target="#myNavbar">Appliances</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -197,11 +197,11 @@
                             <div id="collapse3" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="http://www.spottr.in/rental.php#selfdrivecars" data-toggle="collapse" data-target="#myNavbar">Self drive cars</a></li>
-                                        <li><a href="http://www.spottr.in/rental.php#localandoutstationcabs" data-toggle="collapse" data-target="#myNavbar">Local and outstation cabs</a></li>
-                                        <li><a href="http://www.spottr.in/rental.php#bikes" data-toggle="collapse" data-target="#myNavbar">Bikes</a></li>
-                                        <li><a href="http://www.spottr.in/rental.php#corporatecarrental" data-toggle="collapse" data-target="#myNavbar">Corporate car rental</a></li>
-                                        <li><a href="http://www.spottr.in/rental.php#cycles" data-toggle="collapse" data-target="#myNavbar">Cycles</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#selfdrivecars" data-toggle="collapse" data-target="#myNavbar">Self drive cars</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#localandoutstationcabs" data-toggle="collapse" data-target="#myNavbar">Local and outstation cabs</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#bikes" data-toggle="collapse" data-target="#myNavbar">Bikes</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#corporatecarrental" data-toggle="collapse" data-target="#myNavbar">Corporate car rental</a></li>
+                                        <li><a href="http://www.spottr.in/rentallock.php#cycles" data-toggle="collapse" data-target="#myNavbar">Cycles</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -260,8 +260,8 @@
                     <div id="collapsea2" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="http://www.spottr.in/rental.php#furniture" data-toggle="collapse" data-target="#myNavbar">Furniture</a></li>
-                                <li><a href="http://www.spottr.in/rental.php#appliances" data-toggle="collapse" data-target="#myNavbar">Appliances</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#furniture" data-toggle="collapse" data-target="#myNavbar">Furniture</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#appliances" data-toggle="collapse" data-target="#myNavbar">Appliances</a></li>
                             </ul>
                         </div>
                     </div>
@@ -275,11 +275,11 @@
                     <div id="collapsea3" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><a href="http://www.spottr.in/rental.php#selfdrivecars" data-toggle="collapse" data-target="#myNavbar">Self drive cars</a></li>
-                                <li><a href="http://www.spottr.in/rental.php#localandoutstationcabs" data-toggle="collapse" data-target="#myNavbar">Local and outstation cabs</a></li>
-                                <li><a href="http://www.spottr.in/rental.php#bikes" data-toggle="collapse" data-target="#myNavbar">Bikes</a></li>
-                                <li><a href="http://www.spottr.in/rental.php#corporatecarrental" data-toggle="collapse" data-target="#myNavbar">Corporate car rental</a></li>
-                                <li><a href="http://www.spottr.in/rental.php#cycles" data-toggle="collapse" data-target="#myNavbar">Cycles</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#selfdrivecars" data-toggle="collapse" data-target="#myNavbar">Self drive cars</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#localandoutstationcabs" data-toggle="collapse" data-target="#myNavbar">Local and outstation cabs</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#bikes" data-toggle="collapse" data-target="#myNavbar">Bikes</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#corporatecarrental" data-toggle="collapse" data-target="#myNavbar">Corporate car rental</a></li>
+                                <li><a href="http://www.spottr.in/rentallock.php#cycles" data-toggle="collapse" data-target="#myNavbar">Cycles</a></li>
                             </ul>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
 
 
 
-            <div class="well" id="companyManagedHouses">
+            <div class="well" >
                 <h4>Hello, Spottrs!</h4>
                 <p><span class="jumbotrontext">Spottr is a way to discover the best and the latest companies providing everyday services that you can fall in love with. 
                 <br>
@@ -313,7 +313,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
             </div>
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="companyManagedHouses">
                 Company Managed Houses
             </div>
 
@@ -395,7 +395,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
 
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="companyManagedPGs">
                 Company Managed PGs
             </div>
 
@@ -484,7 +484,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
             </div>
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="chatBased">
                 Chat Based Search
             </div>
 
@@ -519,7 +519,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
 
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="listings">
                 Listings
             </div>
 
@@ -624,7 +624,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
 
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="listingAggregators">
                 Listing Aggregators
             </div>
 
@@ -660,7 +660,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
 
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="brokers">
                 Real Estate Agents
             </div>
 
@@ -699,7 +699,7 @@ We have all been there - rummaging through numerous listing sites, checking up c
 
 
 
-            <div class="sectionhead">
+            <div class="sectionhead" id="classifieds">
                 General Classifieds
             </div>
 
