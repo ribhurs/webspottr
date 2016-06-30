@@ -60,7 +60,6 @@
 
         ga('create', 'UA-79507156-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </head>
@@ -87,18 +86,12 @@
                 '//www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WMLNL7');
-
     </script>
     <!-- End Google Tag Manager -->
 
 
 
-    <div class="alert alert-success alert-dismissible fade in" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        <strong>Thank you!</strong> We have received your message.
-    </div>
+
 
     <nav class="navbar navbar-inverse visible-xs">
         <div class="container-fluid">
@@ -838,7 +831,7 @@
         </div>
 
 
-        
+
 
 
         <!-------------- FACEBOOK LOGIN BUTTON CODE---->
@@ -895,7 +888,6 @@
 
                 });
             }
-
         </script>
 
 
@@ -944,14 +936,12 @@
                     scrollTop: $("#cycles").offset().top + offset
                 }, 2000);
             });
-
         </script>
 
 
 
         <script>
             window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-
         </script>
 
 </body>
