@@ -47,7 +47,7 @@
 
 
 /* CONNECT TO DB 
-------------------------------------------------------- */
+------------------------------------------------------- */  
 $servername = "localhost";
 $username = "root";  //Databaseman
 $password = "root"; //T&03,e)~x~2A
@@ -57,14 +57,14 @@ $result = $conn->connect_error;
       
 
 /* PARSE THE QUERY STRING, STORE FBID TO DB 
-------------------------------------------------------- */   
+------------------------------------------------------- 
 $querystring =  $_SERVER["QUERY_STRING"];
 parse_str($querystring);
 $sql = "INSERT INTO facebookid (userid) VALUES (".$fbid.")";
 $result = $conn->query($sql);
 
 
-$conn->close();
+$conn->close(); */ 
 ?>
 
 <!DOCTYPE html>
@@ -165,7 +165,8 @@ $conn->close();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h2> <span class="fa fa-puzzle-piece" aria-hidden="true"></span> Spottr.</h2>
+                <img style="height:40px;" src="spottrlogo3.svg">
+                <!-- <h2> <span class="fa fa-puzzle-piece" aria-hidden="true"></span> Spottr.</h2> -->
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                
@@ -320,6 +321,7 @@ $conn->close();
 
 
 
+        <!--
         <div class="well" id="companyManagedHouses">
             <h4>Hello, Spottrs!</h4>
             <p><span class="jumbotrontext">Spottr is a way to discover the best and the latest companies providing everyday services that you can fall in love with. 
@@ -328,7 +330,7 @@ $conn->close();
                 What do we do when we want to buy or rent something online? 
 We have all been there - rummaging through numerous listing sites, checking up categories and then going back to google hoping to hunt down another site with a better deal.  Hence, we've spotted a list of interesting companies to ease your hunt. <br>
                 <br>Happy spotting!</span>&nbsp;<span class="fa fa-thumbs-o-up" aria-hidden="true"></span></p>
-        </div>
+        </div> -->
 
 
         <div class="sectionhead" >
