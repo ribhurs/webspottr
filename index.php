@@ -232,7 +232,8 @@ $conn->close();
     </nav>
 
     <div class="col-sm-3 sidenav hidden-xs">
-        <h2><span class="fa fa-puzzle-piece" aria-hidden="true"></span> Spottr.</h2>
+        <!--<h2><span class="fa fa-puzzle-piece" aria-hidden="true"></span> Spottr.</h2>-->
+        <img style="height:80px;"src="spottrlogo3.svg"></img>
        
         <!--<div class="dropdown">
           <button class="dropbtn">Bangalore <span class="fa fa-angle-down" aria-hidden="true"></button>
