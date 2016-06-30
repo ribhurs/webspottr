@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spottr - Discover startups</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="style.css"> <!-- Resource style -->
+	<script src="modernizr.js"></script> <!-- Modernizr -->
+       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Abel|EB+Garamond|Exo|Josefin+Sans|Lato|Lobster|Montserrat|Oswald|PT+Sans|Poiret+One|Quicksand|Raleway|Roboto|Roboto+Condensed|Source+Sans+Pro|Ubuntu|Varela+Round" rel="stylesheet">
+    
+    <style>
+    
+        body {
+       
+           height: 200px;
+           background: #fcd296 ; /* For browsers that do not support gradients */
+           background: -webkit-linear-gradient(left, #fcd296  , #71e1f4 ); /* For Safari 5.1 to 6.0 */
+           background: -o-linear-gradient(right, #fcd296 , #71e1f4 ); /* For Opera 11.1 to 12.0 */
+           background: -moz-linear-gradient(right, #fcd296 , #71e1f4 ); /* For Firefox 3.6 to 15 */
+           background: linear-gradient(to right, #fcd296  , #71e1f4 ); /* Standard syntax (must be last) */
+
+        }
+        
+        .jumbotron{
+            background-color: transparent;
+        }
+        .logodiv{
+            text-align: center;
+            margin-top: 10%;
+        }
+        
+               
+        .anim{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 36px !important;
+            font-weight: 100;
+           text-align: center;
+           
+        }
+        
+        
+        /* For mobile phones: */
+         .holder2{
+            text-align: center;
+        }
+        
+         .holder3{
+            text-align: center;
+        }
+        
+         .holder1{
+            text-align: center;
+        }
+        
+
+
+        
+     
+     .categ{
+            background-color: black;
+            border-color: transparent;
+            margin: 10px -20px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 10;      
+             color:white;
+            padding: 12px;
+         border-radius: 5px;
+              
+        }
+        
+          .categ:hover{
+            border-color: transparent;
+           border-bottom-style:solid;
+            border-bottom-color: blueviolet;
+             
+        }
+        
+        
+        
+        @media only screen and (min-width: 600px) {
+    /* For tablets: */
+                
+     .categ{
+            background-color: transparent;
+            border-color: transparent;
+            margin: 10px -10px 0px 0px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 10;      
+         color:black;
+            padding: 12px;
+              
+        }
+        
+          .categ:hover{
+            border-color: transparent;
+           border-bottom-style:solid;
+            border-bottom-color: #e74c3c;
+             
+        }
+    
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+        
+     .categ{
+            background-color: transparent;
+            border-color: transparent;
+            margin: 10px -10px 0px 0px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 10;      
+             color:black;
+            padding: 12px;
+                  border-radius: 0px;
+              
+        }
+        
+          .categ:hover{
+            border-color: transparent;
+           border-bottom-style:solid;
+            border-bottom-color: #e74c3c;
+              border-radius: 0px;
+             
+        }
+ 
+}
+        
+        
+        .second{
+          width:70%;  
+        }
+        .changer{
+            margin-top: 100px;
+        }
+        
+        .discover{
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+  <div class="container">
+  <div class="jumbotron">
+     
+    <div class="logodiv">
+    <img src="logo.svg" class="logo">
+    </div>
+      
+    <div class="changer">
+    	<h1 class="anim cd-headline letters rotate-2">
+			<span>I want to rent a</span> 
+			<span class="cd-words-wrapper">
+				<b class="is-visible">Bike</b>
+				<b>House</b>
+                <b>Table</b>
+                <b>Car</b>
+                <b>PG</b>
+			</span>
+		</h1>  
+    </div>  
+      
+      <div class="discover">
+      <h3>Discover great new startups</h3>
+      </div>
+   
+  </div>
+</div>
+    
+<div class="container second">     
+<div class="row">
+    <div class="col-sm-4 holder1">
+       <button class="categ"><i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp; Car & Bike</button>
+    </div>
+    <div class="col-sm-4 holder2">
+     <button class="categ"><i class="fa fa-television" aria-hidden="true"></i>&nbsp; Appliance & Furniture</button>
+      </div>
+    <div class="col-sm-4 holder3">
+         <button class= "categ"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; House & PG </button>
+    </div>
+  </div>    
+</div>
+
+    
+<script src="jquery-2.1.1.js"></script>
+<script src="main.js"></script> <!-- Resource jQuery -->    
+</body>
+</html>
