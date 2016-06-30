@@ -1,173 +1,224 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Spottr - Discover startups</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Resource style -->
+    <script src="modernizr.js"></script>
+    <!-- Modernizr -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|EB+Garamond|Exo|Josefin+Sans|Lato|Lobster|Montserrat|Oswald|PT+Sans|Poiret+One|Quicksand|Raleway|Roboto|Roboto+Condensed|Source+Sans+Pro|Ubuntu|Varela+Round" rel="stylesheet">
+
+    <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="canonical" href="www.spottr.in" />
+
     
-    <link rel="stylesheet" href="reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="style.css"> <!-- Resource style -->
-	<script src="modernizr.js"></script> <!-- Modernizr -->
-       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Abel|EB+Garamond|Exo|Josefin+Sans|Lato|Lobster|Montserrat|Oswald|PT+Sans|Poiret+One|Quicksand|Raleway|Roboto|Roboto+Condensed|Source+Sans+Pro|Ubuntu|Varela+Round" rel="stylesheet">
+     <!-- CODE FOR FACEBOOK OPEN GRAPH-->
+        <meta property="og:title" content="Hello, Spottrs!" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://spottr.in" />
+        <meta property="og:image" content="http://spottr.in/spottr.png" />
+        <meta property="og:site_name" content="Spottr" />
+
+        <meta property="og:description" content="Spottr is a way to discover the best and the latest companies providing everyday services that you can fall in love with. Happy spotting!" />
+
+    
+    
+     <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-79507156-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+    
+    
+    
+    
+    
     
     <style>
-    
         body {
-       
-           height: 200px;
-           background: #fcd296 ; /* For browsers that do not support gradients */
-           background: -webkit-linear-gradient(left, #fcd296  , #71e1f4 ); /* For Safari 5.1 to 6.0 */
-           background: -o-linear-gradient(right, #fcd296 , #71e1f4 ); /* For Opera 11.1 to 12.0 */
-           background: -moz-linear-gradient(right, #fcd296 , #71e1f4 ); /* For Firefox 3.6 to 15 */
-           background: linear-gradient(to right, #fcd296  , #71e1f4 ); /* Standard syntax (must be last) */
-
+            height: 200px;
+            background: #fcd296;
+            /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, #fcd296, #71e1f4);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #fcd296, #71e1f4);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #fcd296, #71e1f4);
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #fcd296, #71e1f4);
+            /* Standard syntax (must be last) */
         }
         
-        .jumbotron{
+        .jumbotron {
             background-color: transparent;
         }
-        .logodiv{
+        
+        .logodiv {
             text-align: center;
             margin-top: 10%;
         }
         
-               
-        .anim{
+        .anim {
             font-family: 'Quicksand', sans-serif;
             font-size: 36px !important;
             font-weight: 100;
-           text-align: center;
-           
+            text-align: center;
         }
-        
-        
         /* For mobile phones: */
-         .holder2{
+        
+        .holder2 {
             text-align: center;
         }
         
-         .holder3{
+        .holder3 {
             text-align: center;
         }
         
-         .holder1{
+        .holder1 {
             text-align: center;
         }
         
-
-
-        
-     
-     .categ{
+        .categ {
             background-color: black;
             border-color: transparent;
             margin: 10px -20px;
             font-family: 'Quicksand', sans-serif;
-            font-weight: 10;      
-             color:white;
+            font-weight: 10;
+            color: white;
             padding: 12px;
-         border-radius: 5px;
-              
+            border-radius: 5px;
         }
         
-          .categ:hover{
+        .categ:hover {
             border-color: transparent;
-           border-bottom-style:solid;
+            border-bottom-style: solid;
             border-bottom-color: blueviolet;
-             
         }
-        
-        
         
         @media only screen and (min-width: 600px) {
-    /* For tablets: */
-                
-     .categ{
-            background-color: transparent;
-            border-color: transparent;
-            margin: 10px -10px 0px 0px;
-            font-family: 'Quicksand', sans-serif;
-            font-weight: 10;      
-         color:black;
-            padding: 12px;
-              
+            /* For tablets: */
+            .categ {
+                background-color: transparent;
+                border-color: transparent;
+                margin: 10px -10px 0px 0px;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 10;
+                color: black;
+                padding: 12px;
+            }
+            .categ:hover {
+                border-color: transparent;
+                border-bottom-style: solid;
+                border-bottom-color: #e74c3c;
+            }
+            .categ:focus {
+                outline: 0;
+            }
         }
         
-          .categ:hover{
-            border-color: transparent;
-           border-bottom-style:solid;
-            border-bottom-color: #e74c3c;
-             
-        }
-             .categ:focus {
-        outline:0;
-        
-    }
-    
-
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-        
-     .categ{
-            background-color: transparent;
-            border-color: transparent;
-            margin: 10px -10px 0px 0px;
-            font-family: 'Quicksand', sans-serif;
-            font-weight: 10;      
-             color:black;
-            padding: 12px;
-                  border-radius: 0px;
-              
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .categ {
+                background-color: transparent;
+                border-color: transparent;
+                margin: 10px -10px 0px 0px;
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 10;
+                color: black;
+                padding: 12px;
+                border-radius: 0px;
+            }
+            .categ:hover {
+                border-color: transparent;
+                border-bottom-style: solid;
+                border-bottom-color: #e74c3c;
+                border-radius: 0px;
+            }
+            .categ:focus {
+                outline: 0;
+            }
         }
         
-          .categ:hover{
-            border-color: transparent;
-           border-bottom-style:solid;
-            border-bottom-color: #e74c3c;
-              border-radius: 0px;
-             
+        .second {
+            width: 70%;
         }
-    
-
-    
-    .categ:focus {
-        outline:0;
         
-    }
- 
-}
-        
-        
-        .second{
-          width:70%;  
-        }
-        .changer{
+        .changer {
             margin-top: 100px;
         }
         
-        .discover{
+        .discover {
             margin-top: 20px;
             text-align: center;
         }
-        
     </style>
 </head>
+
+
+
 <body>
     
-  <div class="container">
-  <div class="jumbotron">
-     
-    <div class="logodiv">
-    <img src="logo.svg" class="logo">
-    </div>
-      
-    <div class="changer">
-    	<h1 class="anim cd-headline letters rotate-2">
+    
+                    <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WMLNL7"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WMLNL7');</script>
+            <!-- End Google Tag Manager -->
+    
+    
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="logodiv">
+                <img src="logo.svg" class="logo">
+            </div>
+
+            <div class="changer">
+                <h1 class="anim cd-headline letters rotate-2">
 			<span>I want to rent a</span> 
 			<span class="cd-words-wrapper">
 				<b class="is-visible">Bike</b>
@@ -176,32 +227,42 @@
                 <b>Car</b>
                 <b>PG</b>
 			</span>
-		</h1>  
-    </div>  
-      
-      <div class="discover">
-      <h3>Discover great new startups</h3>
-      </div>
-   
-  </div>
-</div>
-    
-<div class="container second">     
-<div class="row">
-    <div class="col-sm-4 holder1">
-       <button class="categ"><i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp; Car & Bike</button>
-    </div>
-    <div class="col-sm-4 holder2">
-     <button class="categ"><i class="fa fa-television" aria-hidden="true"></i>&nbsp; Appliance & Furniture</button>
-      </div>
-    <div class="col-sm-4 holder3">
-         <button class= "categ"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; House & PG </button>
-    </div>
-  </div>    
-</div>
+		</h1>
+            </div>
 
-    
-<script src="jquery-2.1.1.js"></script>
-<script src="main.js"></script> <!-- Resource jQuery -->    
+            <div class="discover">
+                <h3>Discover great new startups</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container second">
+        <div class="row">
+            <a href="http://www.spottr.in/rentallock.php#selfdrivecars">
+                <div class="col-sm-4 holder1">
+                    <button class="categ"><i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp; Car & Bike</button>
+                </div>
+            </a>
+
+            <a href="http://www.spottr.in/rentallock.php#furniture">
+                <div class="col-sm-4 holder2">
+                    <button class="categ"><i class="fa fa-television" aria-hidden="true"></i>&nbsp; Appliance & Furniture</button>
+                </div>
+            </a>
+
+            <a href="http://www.spottr.in/indexlock.php">
+                <div class="col-sm-4 holder3">
+                    <button class="categ"><i class="fa fa-home" aria-hidden="true"></i>&nbsp; House & PG </button>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="jquery-2.1.1.js"></script>
+    <script src="main.js"></script>
+    <!-- Resource jQuery -->
 </body>
+
 </html>
